@@ -1,6 +1,6 @@
 # Academia — mini SaaS
 
-Aplicação web de uma academia, publicada como serviço (SaaS) num servidor de aplicação Linux. Trabalho da disciplina Innovation Lab – SaaS Infrastructure (Faculdade Impacta), baseado no repositório [mini_saas](https://github.com/alessandrokraemer-arch/mini_saas) do Prof. Dr. Alessandro Kraemer.
+Aplicação web de uma academia, publicada como serviço (SaaS) num servidor de aplicação Linux. Trabalho da disciplina Innovation Lab – SaaS Infrastructure , baseado no repositório [mini_saas](https://github.com/alessandrokraemer-arch/mini_saas) do Prof. Dr. Alessandro Kraemer.
 
 **Integrantes:** _(preencher)_
 
