@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Salvar em: /var/lib/tomcat10/conf/Catalina/localhost/academia.xml
+  Depois acessar: http://IP_DA_VM:8080/academia/
+-->
+<Context path="/academia"
+	docBase="/opt/tomcat10/academia"
+	antiResourceLocking="false" />

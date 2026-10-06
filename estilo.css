@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; font-size: 16pt; margin: 24px; }
+h1 { color: #1b5e20; }
+nav a { display: inline-block; margin-right: 12px; padding: 8px 14px; background: #2e7d32; color: #fff; text-decoration: none; border-radius: 4px; }
+form p { margin: 18px 0; }
+select, input { font-size: 14pt; }
+table { border-collapse: collapse; margin-top: 16px; }
+th, td { border: 1px solid #999; padding: 6px 10px; }
+th { background: #ddd; }
+.ok { color: #2e7d32; }
+.erro { color: #c62828; }

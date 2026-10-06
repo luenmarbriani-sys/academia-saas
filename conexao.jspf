@@ -1,0 +1,19 @@
+<%@ page import="java.sql.*" %>
+<%!
+	// Dados de acesso ao SQL Server que roda no Windows.
+	// Troque o IP pelo IPv4 do seu Windows (comando ipconfig).
+	static final String URL_BANCO = "jdbc:sqlserver://192.168.142.1:1433;databaseName=Academia;encrypt=false";
+	static final String USUARIO   = "saas";
+	static final String SENHA     = "saas";
+
+	Connection abrirConexao() throws Exception {
+		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+		return DriverManager.getConnection(URL_BANCO, USUARIO, SENHA);
+	}
+
+	// Evita que um nome com < ou > quebre o HTML da página
+	String esc(String s) {
+		if (s == null) return "";
+		return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace("\"", "&quot;");
+	}
+%>
